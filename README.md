@@ -28,6 +28,7 @@
         ```
         
   ### Tests
-    - Server Tests: `npm run test`
+   - Server Tests: 
+    `npm run test`
   
   ### UML
