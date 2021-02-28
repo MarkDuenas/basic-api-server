@@ -2,7 +2,7 @@
 
 ### Author: Mark Duenas
 
-[Test Reports](https://github.com/MarkDuenas/basic-express-server/actions)
+[Test Reports](https://github.com/MarkDuenas/basic-api-server/actions)
 
 [Deployed Link](https://basic-express-md.herokuapp.com/)
 
