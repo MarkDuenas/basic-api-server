@@ -9,6 +9,7 @@ const animalRouter = require('./routes/animal.js');
 const penguinRouter = require('./routes/penguin.js');
 
 app.use(express.json());
+
 app.use(animalRouter);
 app.use(penguinRouter);
 
