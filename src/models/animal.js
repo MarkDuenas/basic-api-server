@@ -26,14 +26,22 @@ class Animal {
 
   update(id, obj) {
     if(id) {
-      return obj;
+      this.db.map(record => {
+        if (record.id === id) {
+          record.record = obj;
+        }
+        return record;
+      })
+     return this.db.find(record => record.id === id); 
     }
   }
 
   delete(id) {
     if(id) {
-      return null;
+      this.db = this.db.filter(record => record.id !== id);
+      return this.db.find(record => record.id === id);
     }
+    return undefined;
   }
 
 }
